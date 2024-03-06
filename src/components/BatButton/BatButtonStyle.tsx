@@ -18,5 +18,22 @@ export const BatButtonStyle = StyleSheet.create({
     width:180,
     textAlign: 'center',
     backgroundColor: "#817b7b"
+  },
+
+  batPicker: {
+    backgroundColor: '#817b7b',
+    color: "#e5bf3c",
+    width:130
+  },
+
+  batPickerConteiner: {
+    borderRadius: 112,
+    backgroundColor: '#817b7b',
+    width: 180,
+    display: 'flex',
+    alignItems: 'center'
+
   }
+
+
 });

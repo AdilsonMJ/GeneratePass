@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import styles from "./Styles";
 import { BatLogo } from "../../components/Logo/BatLogo";
@@ -14,6 +14,9 @@ export default function Home() {
 
       <View style={BatLogoStyle.logoContainer}>
         <BatLogo />
+        <View>
+          <Text>"Hello"</Text>
+        </View>
       </View>
 
       <View>
